@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Questrial", sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto ;
+    height: 100vh;
+}
+
+header h1{
+    color: white;
+    background-color: #161E54;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+p{
+    text-align: center;
+}
+
+nav{
+    background-color: #F16D34;
+}
+.navigation {
+    margin: 0.75rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F16D34;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    color: #161E54;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.navigation a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+
+main{
+    margin: 1rem;
+    border: 1px solid #F16D34;
+    padding: 1rem;
+    background-color: #161E54;
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+} 
+
+
+
+
+
+
+footer{
+    background-color: #F16D34;
+    font-family: sans-serif;
+    font-weight: 300;
+}
