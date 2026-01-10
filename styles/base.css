@@ -8,7 +8,7 @@
 body{
     margin: 0;
     display: grid;
-    grid-template: auto ifr auto / 2fr 1fr;
+    grid-template: auto 1fr auto / 2fr 1fr;
     line-height: 1.6;
 }
 
@@ -45,7 +45,7 @@ header{
     padding: 0.75rem;
     color: black;
     text-decoration: none;
-    text-align: spa;
+    text-align: center;
     font-size: 22px;
 
 }
