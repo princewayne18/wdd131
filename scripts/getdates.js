@@ -1,5 +1,3 @@
-console.log("Script is running!");
-
 const yearSpan = document.getElementById("currentyear");
 const lastModified = document.getElementById("lastModified");
 

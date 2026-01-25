@@ -1,0 +1,174 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
+h1 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+ }
+
+
+ body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #f5f7fa;
+    color: #111111;
+ }
+
+header{
+    background-color:#0f6acb;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: left;
+    font-size: larger;
+
+}
+
+.header-center{
+    width: 100%;
+}
+
+nav{
+    background-color: #1e3a5f;
+    
+   
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #1e3a5f;
+}
+
+ nav a {
+    display: none;
+    text-align: center;
+    padding: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+ }
+
+nav ul.open a{
+    display: block;
+    width: 100%;
+}
+
+
+
+ nav a:hover{
+    color:#000;
+    text-decoration: underline double;
+    background-color: #eee;
+ }
+
+ main{
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    
+ }
+
+/*image effects*/
+.hover{
+    box-shadow: 0 0 20px rgba(248, 245, 245, 0.5);
+}
+
+.border-radius{
+    border-radius: 15px 150px;
+}
+.opacity{
+    opacity: 0.5;
+}
+.blur{
+    filter: blur(1px);
+}
+
+.grayscale{
+    filter: blur(1px) grayscale(50%);
+}
+
+.contrast{
+    filter: contrast(50%);
+}
+
+.saturate{
+    filter: saturate(50%);
+}
+
+.horizontal{
+    transform: scaleX(-1);
+}
+
+.turn{
+    rotate: 0.05turn;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 1px
+}
+
+ figure {
+    background-color:#ffffff;
+    color: #111111;;
+    padding: 1rem;
+
+ }
+
+ footer {
+     background-color:#0f6acb;;
+     padding: 1rem;
+     color: #ffffff
+ }
+ p{
+    color:#f1f5f9;
+ }
+
+
+ #menu {
+     font-size: 1.5rem;
+     border: 0;
+     background: none;
+     color: #fff;
+     position: absolute;
+     top: 1rem;
+     right: 1rem;
+ }
+
+ #menu::before{
+    content: "☰";
+ }
+
+ #menu.open::before{
+    content: "❎";
+ }
+
+ @media (min-width: 640px) {
+    #menu{
+        display: none;
+    }
+    nav a {
+            display: block;
+          }
+
+    nav ul.navigation {
+        flex-direction: row;
+    }
+
+    .center{
+        width: 70%;
+            /* choose any width */
+            margin: 0 auto;
+            /* centers it */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    }
+ }
