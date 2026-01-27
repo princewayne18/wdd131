@@ -1,0 +1,7 @@
+/*this enables the behaviour 
+of image to be resonsive and yet 
+maintain its aspect ratio*/
+.hero img {
+    width: 100%;
+    height: auto;
+}

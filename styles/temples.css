@@ -20,7 +20,7 @@ h1 {
  }
 
 header{
-    background-color:#0f6acb;
+    background-color: #06080a;
     color: #ffffff;
     padding: 1rem;
     text-align: left;
@@ -30,6 +30,11 @@ header{
 
 .header-center{
     width: 100%;
+}
+
+header p{
+    color: #ffffff;
+    background-color: #06080a;
 }
 
 nav{
@@ -123,12 +128,13 @@ nav ul.open a{
  }
 
  footer {
-     background-color:#0f6acb;;
+     background-color:#06080a;;
      padding: 1rem;
-     color: #ffffff
+     color: white;
  }
- p{
+ footer p{
     color:#f1f5f9;
+    background-color: #06080a;
  }
 
 
@@ -172,3 +178,5 @@ nav ul.open a{
             align-items: center;
     }
  }
+
+ 
