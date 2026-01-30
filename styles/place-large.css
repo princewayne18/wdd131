@@ -1,0 +1,56 @@
+
+@media (min-width: 1500px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    main {
+        display: block;
+        position: relative;
+    }
+
+    .hero{
+        position: relative;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .country-data{
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        width: 300px;
+        padding:2rem;
+    }
+
+    .weather{
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        width: 300px;
+    }
+
+    .weather h2::after {
+        content: " ⛅";
+        display: inline-block;
+        margin-left: 0.5rem;
+        font-size: 1.5rem;
+        vertical-align: middle
+    }
+
+    .weather-icon-mobile {
+        display: none;
+        }
+
+    footer {
+        padding: 4rem;
+        font-size: 2rem;
+    }
+
+
+}

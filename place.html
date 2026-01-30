@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131-Dynamic Web Fundamentals-Prince Dube</title>
+    <title>WDD 131-Country Page-Prince Dube</title>
     <meta name="author" content="Prince Dube">
     <meta name="description" content="WDD 131|| Dynamic Web Fundamentals assignments authored by Prince Dube.
         This assignment features web development fundamentals, HTML, CSS, JavaScript.">
 
 
     <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
     <script src="scripts/place.js" defer></script>
 
 </head>
@@ -26,32 +27,29 @@
             <picture>  
             <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
             <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
-            <img src="images/hero-small.webp" alt="Hero Image" width="1500" height="750">
+            <img src="images/hero-small.webp" alt="Beautiful creatures in Zimbabwe" width="1500" height="750">
             </picture>
     </div>
 
-        <section class="card">
+        <section class="card country-data">
             <h2>Data</h2>
-            <label>Area:</label> <span>390,757sq km</span>
-            <br>
-            <label>Population:</label> <span>17,100,000</span>
-            <br>
-            <label>Capital:</label> <span>Harare</span>
-            <br>
-            <label>Languages:</label> <span>Shona, Ndebele</span>
-            <br>
-            <label>Currency:</label> <span>US Dollar</span>
-            <br>
-            <label>Time zone:</label> <span>GMT+2</span>
-            <br>
-            <label>Calling Code:</label> <span>+263</span>
-            <br>
-            <label>Internet TLD:</label> <span>.zw</span>
-            
+            <div class="row"><label>Area:</label> <span>390,757 sq km</span></div>
+            <div class="row"><label>Population:</label> <span>17,100,000</span></div>
+            <div class="row"><label>Capital:</label> <span>Harare</span></div>
+            <div class="row"><label>Languages:</label> <span>Shona, Ndebele</span></div>
+            <div class="row"><label>Currency:</label> <span>US Dollar</span></div>
+            <div class="row"><label>Time Zone:</label> <span>GMT+2</span></div>
+            <div class="row"><label>Calling Code:</label> <span>+263</span></div>
+            <div class="row"><label>Internet TLD:</label> <span>.zw</span></div>
         </section>
 
-        <section class="card">
+        <section class="card weather">
             <h2>Weather</h2>
+            <img src="images/cloud-sun-fill.svg" alt="Weather Icon" class="weather-icon-mobile">
+            <div class="row"><label>Temperature:</label> <span id="temp">10°C</span> </div>
+            <div class="row"><label>Conditions:</label> <span id="conditions">Sunny</span></div>
+            <div class="row"><label>Wind:</label> <span id="wind">15km/h</span></div>
+            <div class="row"><label>Wind Chill:</label> <span id="windchill">N/A°C</span></div>
         </section>
 
     </main>
