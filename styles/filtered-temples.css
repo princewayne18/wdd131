@@ -190,3 +190,28 @@ footer {
     color: white;
     text-align: center;
 }
+
+@media (min-width: 640px) {
+
+    /* Keep hamburger visible */
+    #menu {
+        display: block;
+    }
+
+    /* Change nav layout */
+    nav ul {
+        flex-direction: row;
+        /* horizontal */
+        justify-content: center;
+    }
+
+    nav ul.open a {
+        display: inline-block;
+        /* show links horizontally */
+        width: auto;
+    }
+
+    nav a {
+        padding: 1rem 1.5rem;
+    }
+}
