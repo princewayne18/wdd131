@@ -122,7 +122,6 @@ function createTempleCard(templeList) {
 
         image.src = temple.imageUrl;
         image.alt = temple.templeName;
-        image.width = 400;
         image.loading = "lazy";
 
         image.classList.add("hover", "border-radius")
