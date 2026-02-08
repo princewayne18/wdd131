@@ -92,7 +92,7 @@ const temples = [
       dedicated: "2005, April 13",
       area: 45456,
       imageUrl: 
-      "https://churchofjesuschristtemples.org/assets/img/temples/auckland-new-zealand-temple/auckland-new-zealand-temple-57799.jpg"
+      "images/auckland-new-zealand-temple.webp"
   }, 
    
 ];
