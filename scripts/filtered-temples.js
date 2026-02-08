@@ -180,3 +180,28 @@ function showSmall() {
     createTempleCard(smallTemples)
 }
 
+document.getElementById("nav-home").addEventListener("click", (event) => {
+  event.preventDefault();
+  showHome();
+});
+
+document.getElementById("nav-old").addEventListener("click", (event) => {
+  event.preventDefault();
+  showOld();
+});
+
+document.getElementById("nav-new").addEventListener("click", (event) => {
+  event.preventDefault();
+  showNew();
+});
+
+document.getElementById("nav-large").addEventListener("click", (event) => {
+  event.preventDefault();
+  showLarge();
+});
+
+document.getElementById("nav-small").addEventListener("click", (event) => {
+  event.preventDefault();
+  showSmall();
+});
+
