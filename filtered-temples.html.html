@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple and Albums</title>
+    <meta name="author" content="Prince Dube">
+    <meta name="description" content="Temple Album project for WDD 131 Dynamic Web Fundamentals by Prince Dube,
+    featuring responsive HTML, CSS, and JavaScript">
+
+    <!--ADDING GOOGLE FONT JUST BEFORE THE CLOSING HEAD TAG-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+
+</head>
+<body>
+    <header class="center">
+        <p>Temple Album</p>
+        <button type="button" id="menu"></button>
+        <nav>
+        <!--nav bar with text link  in unordered list-->
+            <ul class="navigation">
+                <li><a href="#" onclick="showHome()">Home</a></li>
+                <li><a href="#" onclick="showOld()">Old</a></li>
+                <li><a href="#" onclick="showNew()" >New</a></li>
+                <li><a href="#" onclick="showLarge()">Large</a></li>
+                <li><a href="#" onclick="showSmall()">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Temple Photos</h1>
+    <div class="container"></div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Prince Dube Zimbabwe</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
