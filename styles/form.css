@@ -1,0 +1,131 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #ddd;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    flex: 1;
+    
+}
+
+/*----------- FORM STYLING--------------*/
+
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf1 legend {
+    color: rgb(31, 31, 231);
+    padding: .5rem 2%;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: 0.9rem;
+}
+
+.wf1 fieldset.ratings label {
+    display: inline-block;
+    padding-top: 0;
+    margin-right: 1rem;
+}
+
+.wf1 label[for="product"],
+.wf1 label[for="installDate"],
+.wf1 label[for="review"],
+.wf1 label[for="username"] {
+    padding-top: 1rem;
+    color: rgb(31, 31, 231);
+}
+
+.wf1 input[type="text"],
+.wf1 textarea[id="review"],
+.wf1 input[type="date"],
+.wf1 select 
+{
+    background-color: #ddd;
+    display: block;
+    border: solid 1px #ddd;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.wf1 input[type="submit"] {
+    background-image: linear-gradient(#9c2c13, #6f200e);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin-top: 3rem;
+}
+
+.wf1 input:required,
+.wf1 select:required {
+    border-bottom: solid 8px red;
+}
+
+.wf1 input:required:valid,
+.wf1 select:required:valid {
+    border-bottom: solid 8px green;
+}
+
+.wf1 fieldset.ratings {
+    border-left: 8px solid red;
+}
+
+.wf1 fieldset.ratings:has(input:checked) {
+    border-left: 8px solid green;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+
+}

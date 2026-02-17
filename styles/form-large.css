@@ -1,0 +1,9 @@
+@media only screen and (min-width: 64rem) {
+
+    header,
+    main,
+    footer {
+        width: 1000px;
+        margin: auto;
+    }
+}
