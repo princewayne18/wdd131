@@ -423,3 +423,55 @@ footer {
         justify-content: space-between;
     }
 }
+
+/* =====================
+   REFERENCES PAGE
+===================== */
+.references-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem 1rem;
+    text-align: left;
+}
+
+.references-section h1 {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 2rem;
+    color: #1D3557;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.references-intro {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.references-list {
+    list-style: decimal inside;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.references-list li {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.references-list a {
+    color: #F97171;
+    text-decoration: none;
+}
+
+.references-list a:hover {
+    text-decoration: underline;
+}
+
+/* Center back home link */
+.references-section .back-home {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
