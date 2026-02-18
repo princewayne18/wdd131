@@ -95,7 +95,7 @@ main {
 }
 
 .wf1 input[type="submit"] {
-    background-image: linear-gradient(#9c2c13, #6f200e);
+    background-image: linear-gradient(#b20000, #b20000);
     color: #fff;
     border-radius: 6px;
     padding: .8rem;
@@ -106,20 +106,20 @@ main {
 
 .wf1 input:required,
 .wf1 select:required {
-    border-bottom: solid 8px red;
+    border-bottom: solid 8px #b20000;
 }
 
 .wf1 input:required:valid,
 .wf1 select:required:valid {
-    border-bottom: solid 8px green;
+    border-bottom: solid 8px rgb(31, 31, 231);
 }
 
 .wf1 fieldset.ratings {
-    border-left: 8px solid red;
+    border-left: 8px solid #b20000;
 }
 
 .wf1 fieldset.ratings:has(input:checked) {
-    border-left: 8px solid green;
+    border-left: 8px solid rgb(31, 31, 231);
 }
 
 /*----------- FOOTER --------------*/
