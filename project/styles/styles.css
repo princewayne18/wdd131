@@ -24,6 +24,10 @@ h2 {
     color: #1D3557;
 }
 
+h3{
+    background-color: #e65c5c;
+}
+
 /* =====================
    HEADER & NAVIGATION
 ===================== */
@@ -265,7 +269,7 @@ nav ul li a.active {
     align-items: center;
     text-align: center;
     padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 .contact-section h1 {
