@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliff Jeans Official | Contact</title>
+    <meta name="author" content="Prince Dube">
+    <meta name="description" content="Get in touch with Cliff Jeans – contact for tours, bookings, and collaborations.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+<header>
+    <div class="header-content">
+        <img src="images/logo.png" alt="Cliff Jeans Logo" class="logo">
+        <button id="menu-btn" aria-label="Toggle navigation">
+            <span class="hamburger">☰</span>
+        </button>
+    </div>
+
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <img src="images/hero.webp" alt="Cliff Jeans art" class="hero-img">
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <h1>Get in Touch</h1>
+            <p class="contact-message">
+                Reach out for bookings, media inquiries, or label and publishing matters.
+            </p>
+
+            <!-- Contact Details -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Press & Media</h3>
+                    <p><a href="mailto:pr@jeansbelievers.com">pr@jeansbelievers.com</a></p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Bookings</h3>
+                    <p><a href="mailto:bookings@jeansbelievers.com">bookings@jeansbelievers.com</a></p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Label / Publishing</h3>
+                    <p><a href="mailto:management@jeansbelievers.com">management@jeansbelievers.com</a></p>
+                </div>
+            </div>
+
+            <!-- Booking Form -->
+            <form class="contact-form" action="index.html" method="get">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Booking Details</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="send-btn">Send Booking Request</button>
+            </form>
+
+            <a href="index.html" class="back-home">← Back to Home</a>
+        </section>
+    </main>
+</body>
+
+</html>
